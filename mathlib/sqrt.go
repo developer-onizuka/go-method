@@ -10,6 +10,7 @@ type Square struct {
 }
 
 func (s *Square) Sqrt() float64 {
-	return math.Sqrt((*s).Width*(*s).Width + (*s).Height*(*s).Height)
+	//return math.Sqrt((*s).Width*(*s).Width + (*s).Height*(*s).Height)
+	return math.Sqrt((s.Width)*(s.Width) + (s.Height)*(s.Height))
 }
 
